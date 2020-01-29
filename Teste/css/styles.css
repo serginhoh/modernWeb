@@ -1,0 +1,18 @@
+body{
+    color:blue;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#img1{
+    border:pink 5px solid;
+}
+
+.corvermelha{
+    color: red;
+}
+
+.tamanho10{
+    font-size: 10px;
+}
