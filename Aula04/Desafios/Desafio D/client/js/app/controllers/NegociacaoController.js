@@ -70,6 +70,10 @@ class NegociacaoController {
             this._mensagem.texto = 'Negociações importadas com  sucesso';
             this._mensagemView.update(this._mensagem);
         })
-            .catch(erro => this._mensagem.texto = erro);
+            .catch(erro => {
+                this._mensagem.texto = erro;
+                this._mensagemView.update(this._mensagem);
+                return;
+            });
     }
 }
